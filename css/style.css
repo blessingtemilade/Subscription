@@ -1,0 +1,109 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,400;1,700&family=Open+Sans:wght@400;700&display=swap');
+ *{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: karla;
+}
+header{
+    padding: 60px;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 3.2rem;
+    margin-bottom: 1em;
+}
+h2{
+    color: hsl(204, 43%, 93%);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+h3{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: .8em;
+    font-size: 2.4rem;
+}
+h4{
+    color: hsl(218, 22%, 67%);
+    font-size: 1.8rem;
+    
+}
+span{
+    color:  hsl(204, 43%, 93%);
+    font-size: 3rem;
+}
+a{
+    color: hsl(218, 22%, 67%);
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+    display: inline-block;
+    height: 60px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+section{
+    display: flex;
+}
+section> div:first-child{
+    background-color:  hsl(178, 93%, 21%);
+    width: 50%;
+    padding: 60px;
+}
+.monthly-wrapper>p{
+   margin-bottom: 1.5rem; 
+   color: hsl(218, 22%, 67%);
+}
+section> div:last-child{
+    background-color:  hsl(179, 84%, 24%);
+    width: 50%;
+    padding: 60px;
+}
+.why-wrapper>p{
+    font-size: 1.5rem;
+    color: hsl(218, 22%, 67%);
+}
+@media screen and (max-width: 576px){
+    body{
+        width: 100%;
+    }
+    header{
+        padding: 20px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    h4{
+        font-size: .9rem;
+    }
+    section{
+        flex-direction: column;
+    }
+    section> div:first-child{
+        width: 100%; 
+        padding: 30px;  
+    }
+    section> div:last-child{
+        width: 100%;
+        padding: 30px;
+    }
+    a{
+        width: 100%;
+        padding: 20px;
+    }
+    .why-wrapper>p{
+        font-size: 1rem;
+    }
+}
